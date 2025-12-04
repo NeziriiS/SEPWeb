@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
+body {
+    background-color: rgb(227,201,166); 
+    font-family: Luxurious Roman;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    font-weight: 600;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px 10px 40px;
+}
+hr{
+    color: black;
+    background-color: black;
+    width: 98%;
+    border-color: black;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+.milestone-button {
+    background-color: #f7f7f7; 
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0 2px 4px rgb(112, 112, 112);
+}
+
+
+.content-container {
+    max-width: 800px;
+    margin: 60px auto; 
+    padding: 0 40px;
+}
+
+.milestone-goal {
+    margin-bottom: 50px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+
+.progress-bar-container {
+    height: 40px;
+    background-color: #ffffff; 
+    border-radius: 20px;
+    overflow: hidden; 
+    margin-top: 20px;
+    border: 3px solid #36a7e0; 
+}
+
+.progress-bar-fill {
+    height: 100%;
+    background-color: #375b32; 
+    width: 0%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+     
+}
+
+.progress-labels {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
