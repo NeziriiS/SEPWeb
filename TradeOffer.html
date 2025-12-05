@@ -2,45 +2,50 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trade Offers</title>
     <link rel="stylesheet" href="tradeoffer.css">
 </head>
 <body>
+    <header class="navbar">
+        <nav>
+            <ul class="nav-links">
+                <li><a href="about.html">About</a></li>
+                <li><a href="greenaction.html">Green actions</a></li>
+                <li><a href="milestone.html">Milestone</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <button class="trade-button">Trade offers</button>
+    </header>
+    <hr>
 
-<nav>
-    <a href="about.html">About</a>
-    <a href="green-actions.html">Green actions</a>
-    <a href="milestone.html">Milestone</a>
-    <a href="contact.html">Contact</a>
-    <a href="trade-offers.html" class="active">Trade offers</a>
-</nav>
+    <main class="content-container">
+        <div class="header-row">
+            <div class="title-box">TITLE</div>
+            <div class="points-box">POINTS</div>
+        </div>
 
-<table>
-    <thead>
-        <tr>
-            <th>TITLE</th>
-            <th>POINTS</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Tea pot</td>
-            <td>70p</td>
-        </tr>
-        <tr>
-            <td>Tea pot</td>
-            <td>70p</td>
-        </tr>
-        <tr>
-            <td>Tea pot</td>
-            <td>70p</td>
-        </tr>
-        <tr>
-            <td>Tea pot</td>
-            <td>70p</td>
-        </tr>
-    </tbody>
-</table>
+        <ul class="offer-list">
+            <li class="offer-item">
+                <span class="offer-name">Tea pot</span>
+                <span class="offer-points">70p</span>
+            </li>
+            <li class="offer-item">
+                <span class="offer-name">Tea pot</span>
+                <span class="offer-points">70p</span>
+            </li>
+            <li class="offer-item">
+                <span class="offer-name">Tea pot</span>
+                <span class="offer-points">70p</span>
+            </li>
+            <li class="offer-item">
+                <span class="offer-name">Tea pot</span>
+                <span class="offer-points">70p</span>
+            </li>
+        </ul>
+    </main>
 
+    <script src="script.js"></script>
 </body>
 </html>
