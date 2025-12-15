@@ -1,62 +1,65 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title>About - Sepweb</title>
-    <link rel="stylesheet" href="about.css">
-    <link href="https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>About</title>
+    <link rel="stylesheet" href="stylee.css">
 </head>
 <body>
-    <div class="inner-box">
-        <header class="top-nav">
-            <div class="nav-left">
-                <a href="tradeoffer.html">Trade offers</a>
-                <a href="greenaction.html">Green actions</a>
-                <a href="milestone.html">Milestone</a>
-                <a href="contact.html">Contact</a>
-            </div>
-            <button class="about-btn">About</button>
-        </header>
 
+    <!-- Navigation bar shared across all pages -->
+    <header class="navbar">
+        <nav>
+            <a href="about.html" class="active">About</a>
+            <a href="tradeoffer.html">Trade offer</a>
+            <a href="milestone.html">Milestone</a>
+            <a href="inspiration.html">Inspiration</a>
+            <a href="tips.html">Tips</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Main page content container -->
+    <main class="page-content">
+
+        <!-- Page section with image and text side-by-side -->
         <section class="row">
-            <img src="3.jpg" alt="">
+            <img src="3.jpg" alt="Trade Image">
             <div class="text-box">
                 <h3>Trade offers</h3>
                 <p>
-                    Trade offers allow residents to use their earned personal points to exchange goods and services within the community. 
+                    Trade offers allow residents to use their earned personal points to exchange goods and services within the community.
                     Instead of one-to-one bartering, the point system makes trades simple and fair.
-                    Residents might offer items like fresh vegetables or a compost bin, or services like sewing repairs, window cleaning, or guided meditation.
-                    All available offers are displayed so members can easily see what they can "purchase" with their points.
                 </p>
             </div>
         </section>
 
+        <!-- Reversed layout row (image on right side) -->
         <section class="row reverse">
-            <img src="2.jpg" alt="">
+            <img src="2..jpg" alt="Green Action">
             <div class="text-box">
                 <h4>Green actions</h4>
                 <p>
-                    Green actions are individual eco-friendly habits that residents complete to support sustainable living—such as cycling to work, eating vegan for a week, or switching to efficient lighting.
-                    Each action contributes points to the community's shared "climate capital," encouraging everyone to make greener choices.
-                    These actions are shown anonymously on the website, serving as an open catalogue of inspiration rather than a competition.
+                    Green actions are eco-friendly habits that residents can do daily, like biking, recycling, or using reusable bags.
+                    Each action adds to the community's climate points.
                 </p>
             </div>
         </section>
 
-        <section class="row selected">
-            <img src="3.jpg" alt="">
+        <!-- Another row showing milestones info -->
+        <section class="row">
+            <img src="4..jpg" alt="Milestone Task">
             <div class="text-box">
                 <h4>Milestones</h4>
                 <p>
-                    Communal milestones represent the shared tasks that keep Cloverville running smoothly. 
-                    This includes activities like preparing communal meals, tidying shared spaces, or maintaining outdoor areas.
-                    When residents complete these tasks, they earn personal points as a fair reward for contributing to the community.
-                    Recurring tasks give consistent points, while new tasks can be adjusted as needed.
+                    Milestones represent shared goals of the community, such as cleaning a park or planting trees. 
+                    They encourage teamwork and reward participation with points.
                 </p>
             </div>
         </section>
-    </div>
 
-    <script src="script.js"></script>
+    </main>
+
 </body>
 </html>

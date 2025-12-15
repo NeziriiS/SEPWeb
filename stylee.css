@@ -1,0 +1,257 @@
+body {
+    background-color: #e3c9a6;
+    font-family: 'Luxurious Roman', serif;
+    margin: 0;
+    padding: 0;
+    color: #1c1c1c;
+    font-weight: 600;
+}
+
+/* NAVIGATION BAR */
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #f5f5f5;
+    padding: 10px 20px;
+    border-bottom: 1px solid #999;
+}
+
+.navbar nav {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #1c1c1c;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 6px 12px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+}
+
+.navbar a.active {
+    background-color: white;
+    border: 2px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* SHARED STYLES */
+hr {
+    border: none;
+    height: 1px;
+    background-color: #222;
+    width: 95%;
+    margin: 20px auto;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #999;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #777;
+}
+
+/* PAGE CONTAINERS */
+.page-content {
+    padding: 40px;
+}
+
+/*  MILESTONE PROGRESS BAR */
+.milestone-goal {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+.progress-bar-container {
+    height: 50px;
+    background-color: white;
+    border-radius: 25px;
+    overflow: hidden;
+    border: 2px solid #28632c;
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+.progress-bar-fill {
+    height: 100%;
+    width: 47%;
+    background-color: #3e5d26;
+    border-radius: 25px 0 0 25px;
+    transition: width 0.5s ease-in-out;
+}
+
+.progress-labels {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+    max-width: 700px;
+    font-size: 18px;
+}
+
+/* INSPIRATION SECTION */
+.inspiration-text {
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 20px;
+}
+
+.ima {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 30px;
+}
+
+.ima img {
+    width: 250px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.ima .tilted {
+    transform: rotate(-10deg);
+}
+.image-scatter {
+    position: relative;
+    height: 500px; /* ili koliko ti treba */
+    width: 100%;
+    margin: 0 auto;
+}
+
+.image-scatter img {
+    position: absolute;
+    width: 200px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+    transition: transform 0.3s;
+}
+
+.image-scatter .img1 {
+    top: 20px;
+    left: 10%;
+    transform: rotate(-10deg);
+}
+
+.image-scatter .img2 {
+    top: 100px;
+    left: 40%;
+    transform: rotate(5deg);
+}
+
+.image-scatter .img3 {
+    top: 50px;
+    right: 10%;
+    transform: rotate(-5deg);
+}
+
+.image-scatter img:hover {
+    transform: scale(1.05);
+}
+
+/* TRADE OFFER SECTION */
+.offer-list {
+    list-style: none;
+    padding: 0 30px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.offer-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    font-size: 18px;
+    font-style: italic;
+    border-bottom: 1px dotted #000;
+}
+
+/* CONTENT ROWS */
+.row {
+    display: flex;
+    align-items: center;
+    background: white;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.row img {
+    width: 120px;
+    height: auto;
+    border-radius: 15px;
+}
+
+.row.reverse {
+    flex-direction: row-reverse;
+}
+
+/* TEXT BOXES */
+.text-box {
+    max-width: 600px;
+}
+
+.text-box h3,
+.text-box h4 {
+    margin: 0 0 10px 0;
+    font-size: 22px;
+}
+
+.text-box p {
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+/* CONTACT SECTION */
+.contact-cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 20px;
+    padding: 25px;
+    width: 180px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.avatar-img {
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.card p {
+    font-size: 16px;
+    margin: 10px 0;
+    font-weight: 600;
+}

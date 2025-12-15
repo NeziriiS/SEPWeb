@@ -68,11 +68,6 @@ p {
     max-width: 500px;
 }
 
-.btn-grid .btn:nth-child(5) {
-    grid-column: 1 / -1;
-    justify-self: center;
-}
-
 .btn {
     display: inline-block;
     margin: 10px;
